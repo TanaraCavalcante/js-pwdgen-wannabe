@@ -28,12 +28,15 @@ const favoriteColor = prompt('Inserisci il tuo colore preferito');
 console.log(favoriteColor)
 
 // 4-Password
-const password = firstName + lastName + favoriteColor + fineNumber
+const password = firstName + lastName + favoriteColor + fineNumber;
+console.log(password)
 
 /*--------------------------
       FASE DI OUTPUT
 --------------------------*/
 
 // Mostro in pagina
+
+password.interText = 'La tua Password è ${password}'
 
 
