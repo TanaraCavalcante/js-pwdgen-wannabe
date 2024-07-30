@@ -37,6 +37,6 @@ console.log(password)
 
 // Mostro in pagina
 
-password.innerText = 'La tua Password è ${password}' 
+messagePassword.innerText = `La tua Password è ${password}`
 
 
