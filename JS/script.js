@@ -2,6 +2,10 @@
       FASE PREPARATORIA
 --------------------------*/
 
+//Ricupero gli ellementi della pagina di mio interesse
+const messagePassword = document.getElementById('message');
+console.log(messagePassword)
+
 // Preparo la variabile che appare nel fine della Password
 const fineNumber = 21;
 console.log(fineNumber, typeof fineNumber)
@@ -22,3 +26,14 @@ console.log(lastName)
 // 3-Chiedi all'utente il suo nome
 const favoriteColor = prompt('Inserisci il tuo colore preferito');
 console.log(favoriteColor)
+
+// 4-Password
+const password = firstName + lastName + favoriteColor + fineNumber
+
+/*--------------------------
+      FASE DI OUTPUT
+--------------------------*/
+
+// Mostro in pagina
+
+
