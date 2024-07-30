@@ -19,11 +19,11 @@ console.log(fineNumber, typeof fineNumber)
 const firstName = prompt('Inserisci il tuo primo nome');
 console.log(firstName)
 
-// 2-Chiedi all'utente il suo nome
+// 2-Chiedi all'utente il suo cognome
 const lastName = prompt('Inserisci il tuo cognome');
 console.log(lastName)
 
-// 3-Chiedi all'utente il suo nome
+// 3-Chiedi all'utente il suo colore preferito
 const favoriteColor = prompt('Inserisci il tuo colore preferito');
 console.log(favoriteColor)
 
@@ -37,6 +37,6 @@ console.log(password)
 
 // Mostro in pagina
 
-password.interText = 'La tua Password è ${password}'
+password.innerText = 'La tua Password è ${password}' 
 
 
