@@ -18,3 +18,7 @@ console.log(firstName)
 // 2-Chiedi all'utente il suo nome
 const lastName = prompt('Inserisci il tuo cognome');
 console.log(lastName)
+
+// 3-Chiedi all'utente il suo nome
+const favoriteColor = prompt('Inserisci il tuo colore preferito');
+console.log(favoriteColor)
