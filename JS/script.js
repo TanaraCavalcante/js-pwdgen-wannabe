@@ -10,3 +10,11 @@ console.log(fineNumber, typeof fineNumber)
 /*--------------------------
       FASE RACCOLTA DATI
 --------------------------*/
+
+// 1-Chiedi all'utente il suo nome
+const firstName = prompt('Inserisci il tuo primo nome');
+console.log(firstName)
+
+// 2-Chiedi all'utente il suo nome
+const lastName = prompt('Inserisci il tuo cognome');
+console.log(lastName)
